@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Packet Tracer generated data files (do not commit student files or raw XMLs)
+*.pkt
+*.pka
+*_raw.xml
+lab*.json
+test*.json
+
+# OS files
+.DS_Store
+Thumbs.db

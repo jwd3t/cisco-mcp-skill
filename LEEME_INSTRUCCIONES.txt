@@ -1,0 +1,42 @@
+=============================================================================
+  KIT DE HERRAMIENTAS Y SKILLS - REDES Y COMUNICACIONES DE DATOS (GRUPO 04)
+=============================================================================
+
+Este paquete contiene las guías técnicas y herramientas de automatización
+para completar y verificar su sede en Cisco Packet Tracer (.pka).
+
+IMPORTANTE:
+- NO necesitas modificar ningún documento de Word ni hojas de cálculo.
+- Solo debes configurar tu Router y Switches en tu archivo de Packet Tracer (.pka)
+  y verificar que las PCs de tu sede reciban IP por DHCP.
+
+OPCIÓN 1: SI USAS CHATGPT O CLAUDE WEB (RECOMENDADO PARA AVANZAR RÁPIDO)
+-----------------------------------------------------------------------------
+1. Abre ChatGPT o Claude en tu navegador.
+2. Arrastra a la conversación el archivo:
+   -> 'GUIA_PROYECTO_PARA_CHATGPT.md'
+3. Escríbele este prompt:
+   "Usa las reglas y tablas de este documento y genera la configuración
+   completa de router y switches para mi sede [Ejemplo: La Libertad] usando
+   el bloque asignado en el Excel".
+4. La IA te dará los comandos exactos respetando la nomenclatura de 3 dígitos,
+   VLAN nativa fuera de VLAN 1 y exclusiones de IP del profesor Chinchay.
+5. Pégalos en el CLI de Packet Tracer.
+
+OPCIÓN 2: VERIFICAR Y AUDITAR TU ARCHIVO EN 2 SEGUNDOS POR CONSOLA
+-----------------------------------------------------------------------------
+Abre tu terminal (PowerShell o CMD) en esta carpeta y ejecuta:
+  python pt_cli.py summary TU_ARCHIVO.pka
+
+Te dirá al instante:
+- Cantidad de subinterfaces creadas en tu Router
+- Pools DHCP activos
+- VLANs creadas y troncales en tus switches
+- Enlaces físicos conectados
+
+OPCIÓN 3: SI USAS UNA IA AGÉNTICA (GOOGLE ANTIGRAVITY / CURSOR)
+-----------------------------------------------------------------------------
+La carpeta '.agents/skills/' ya viene incluida. Tu agente detectará
+automáticamente las skills 'redes-grupo4' y 'cisco-packettracer'.
+Solo dile: "Activa la skill redes-grupo4 y configura mi sede".
+=============================================================================

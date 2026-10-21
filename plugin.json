@@ -1,0 +1,5 @@
+{
+  "name": "cisco-packettracer",
+  "description": "Herramienta universal para descifrar, parsear e inspeccionar archivos de Cisco Packet Tracer (.pka, .pkt) a XML y JSON estructurado sin abrir la interfaz gráfica.",
+  "version": "1.0.0"
+}
